@@ -1,2 +1,1 @@
-# beholder
-Github Checks Demon
+# Beholder

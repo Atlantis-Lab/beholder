@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - yarn install
+  pre_build:
+    commands:
+      - yarn build
+      - yarn jest --json --outputFile test-results.json --testLocationInResults --testFailureExitCode 0 && cat ./test-results.json | ./node_modules/.bin/cli --target jest --verbose
+      - yarn tsc --pretty false | ./node_modules/.bin/cli --target tsc --verbose
+      - yarn lint -t json -o ./lint-results.json --force && cat ./lint-results.json | ./node_modules/.bin/cli --target tslint --verbose
