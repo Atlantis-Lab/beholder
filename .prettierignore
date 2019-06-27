@@ -1,0 +1,7 @@
+node_modules
+.git
+build
+coverage
+
+# Build directory
+**/**/build/*
