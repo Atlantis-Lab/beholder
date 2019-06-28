@@ -2,7 +2,6 @@
   "private": true,
   "scripts": {
     "commit": "git-cz",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "clean": "lerna run clean",
     "format": "prettier --write '*.{js,yml,yaml,json}' 'packages/**/*.{js,ts,tsx,yml,yaml,json}'",
     "lint": "tslint --project tsconfig.json -c tslint.json -t codeFrame packages/**/*.ts{,x}",
