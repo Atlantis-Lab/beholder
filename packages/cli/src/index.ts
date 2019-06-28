@@ -2,7 +2,7 @@ import program from 'commander'
 import logger from 'npmlog'
 import { run } from './run'
 
-logger.heading = 'beholder'
+logger.heading = 'uadjet'
 
 const stdin = process.openStdin()
 
