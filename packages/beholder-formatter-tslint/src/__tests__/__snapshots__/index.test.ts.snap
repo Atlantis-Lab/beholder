@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`format should match base snapshot 1`] = `
+Object {
+  "annotations": Array [
+    Object {
+      "annotation_level": "failure",
+      "end_column": 11,
+      "end_line": 3,
+      "message": "Calls to 'console.log' are not allowed.",
+      "path": "/opt/test-app/packages/test/src/invalid-lint.ts",
+      "raw_details": "(no-console): Calls to 'console.log' are not allowed.",
+      "start_column": 0,
+      "start_line": 3,
+      "title": "no-console",
+    },
+    Object {
+      "annotation_level": "failure",
+      "end_column": 6,
+      "end_line": 13,
+      "message": "Do not use comma operator here because it can be easily misunderstood or lead to unintended bugs.",
+      "path": "/opt/test-app/packages/test/src/__tests__/invalid.test.ts",
+      "raw_details": "(ban-comma-operator): Do not use comma operator here because it can be easily misunderstood or lead to unintended bugs.",
+      "start_column": 2,
+      "start_line": 4,
+      "title": "ban-comma-operator",
+    },
+  ],
+  "summary": "Found 2 errors",
+  "title": "TSLint",
+}
+`;
