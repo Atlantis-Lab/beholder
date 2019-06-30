@@ -3,7 +3,7 @@ import { IRuleFailureJson } from 'tslint'
 import {
   FormatResult,
   getLineWithOffset,
-} from '@monstrs/github-checks-formatter-common'
+} from '@aunited/beholder-formatter-common'
 
 const ruleSeverities = {
   ERROR: 'failure',
