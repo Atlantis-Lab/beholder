@@ -1,6 +1,6 @@
 {
   "name": "@aunited/beholder-formatter-tslint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -20,7 +20,7 @@
     "build": "microbundle --no-compress --sourcemap=false"
   },
   "dependencies": {
-    "@aunited/beholder-formatter-common": "1.0.0"
+    "@aunited/beholder-formatter-common": "1.1.0"
   },
   "devDependencies": {
     "@types/node": "10.12.25",

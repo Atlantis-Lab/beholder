@@ -1,6 +1,6 @@
 {
   "name": "@aunited/beholder-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -31,7 +31,7 @@
     "npmlog": "^4.1.2"
   },
   "devDependencies": {
-    "@aunited/beholder-formatter-common": "1.0.0",
+    "@aunited/beholder-formatter-common": "1.1.0",
     "@types/node": "10.12.25",
     "microbundle": "0.11.0",
     "rimraf": "2.6.3"
