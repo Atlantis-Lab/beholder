@@ -1,6 +1,6 @@
 {
-  "name": "@uadjet/cli",
-  "version": "2.0.0",
+  "name": "@aunited/beholder-formatter-common",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -8,12 +8,8 @@
   "typings": "dist/index.d.ts",
   "source": "src/index.ts",
   "files": [
-    "dist",
-    "bin"
+    "dist"
   ],
-  "bin": {
-    "github-checks-cli": "./bin/cli.js"
-  },
   "publishConfig": {
     "access": "public"
   },
@@ -23,16 +19,8 @@
     "prebuild": "rimraf dist",
     "build": "microbundle --no-compress --sourcemap=false"
   },
-  "dependencies": {
-    "commander": "^2.19.0",
-    "cross-fetch": "^3.0.1",
-    "env-ci": "^4.0.0",
-    "error-stack-parser": "^2.0.2",
-    "npmlog": "^4.1.2"
-  },
   "devDependencies": {
     "@types/node": "10.12.25",
-    "@uadjet/formatter-common": "1.0.0",
     "microbundle": "0.11.0",
     "rimraf": "2.6.3"
   }

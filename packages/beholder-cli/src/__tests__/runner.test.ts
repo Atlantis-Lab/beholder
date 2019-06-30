@@ -1,7 +1,7 @@
 import fetch from './__mocks__/cross-fetch'
 import { run } from '../run'
 
-jest.mock('@uadjet/formatter-tslint', () => ({
+jest.mock('@aunited/beholder-formatter-tslint', () => ({
   format: async data => ({
     title: 'test',
     summary: 'test',

@@ -1,0 +1,18 @@
+[
+  {
+    "endPosition": { "character": 11, "line": 2, "position": 32 },
+    "failure": "Calls to 'console.log' are not allowed.",
+    "name": "/opt/test-app/packages/test/src/invalid-lint.ts",
+    "ruleName": "no-console",
+    "ruleSeverity": "ERROR",
+    "startPosition": { "character": 0, "line": 2, "position": 21 }
+  },
+  {
+    "endPosition": { "character": 6, "line": 12, "position": 284 },
+    "failure": "Do not use comma operator here because it can be easily misunderstood or lead to unintended bugs.",
+    "name": "/opt/test-app/packages/test/src/__tests__/invalid.test.ts",
+    "ruleName": "ban-comma-operator",
+    "ruleSeverity": "ERROR",
+    "startPosition": { "character": 2, "line": 3, "position": 70 }
+  }
+]

@@ -2,7 +2,7 @@ import {
   Formatter,
   FormatResult,
   AnnotationLevel,
-} from '@uadjet/formatter-common'
+} from '@aunited/beholder-formatter-common'
 import ErrorStackParser from 'error-stack-parser'
 import fetch from 'cross-fetch'
 import logger from 'npmlog'
@@ -14,7 +14,7 @@ const endpoint =
 
 const getOutput = async (target, data): Promise<FormatResult> => {
   try {
-    const formatter: Formatter = require(`@uadjet/formatter-${target}`)
+    const formatter: Formatter = require(`@aunited/beholder-formatter-${target}`)
 
     return await formatter.format(data)
   } catch (error) {
