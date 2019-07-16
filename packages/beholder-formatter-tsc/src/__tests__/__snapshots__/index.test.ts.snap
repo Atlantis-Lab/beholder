@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`format should match base snapshot 1`] = `
+Object {
+  "annotations": Array [
+    Object {
+      "annotation_level": "failure",
+      "end_column": "16",
+      "end_line": "1",
+      "message": " Cannot find module 'fs'.",
+      "path": "packages/test/src/invalid.ts",
+      "raw_details": "( error TS2307):  Cannot find module 'fs'.",
+      "start_column": "16",
+      "start_line": "1",
+      "title": " error TS2307",
+    },
+    Object {
+      "annotation_level": "failure",
+      "end_column": "13",
+      "end_line": "4",
+      "message": " Cannot find name 'some'.",
+      "path": "packages/test/src/invalid.ts",
+      "raw_details": "( error TS2304):  Cannot find name 'some'.",
+      "start_column": "13",
+      "start_line": "4",
+      "title": " error TS2304",
+    },
+  ],
+  "summary": "Found 2 errors",
+  "title": "TypeScript",
+}
+`;
