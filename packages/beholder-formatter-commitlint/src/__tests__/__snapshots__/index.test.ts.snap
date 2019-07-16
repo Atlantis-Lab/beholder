@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`format should match base snapshot 1`] = `
+Object {
+  "annotations": Array [],
+  "conclusion": "failure",
+  "summary": "
+⧗   input: test17
+✖   subject may not be empty [subject-empty]
+✖   type may not be empty [type-empty]
+✖   found 2 problems, 0 warnings
+",
+  "title": "Commitlint",
+}
+`;
