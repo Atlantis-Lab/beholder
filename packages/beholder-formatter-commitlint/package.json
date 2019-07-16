@@ -1,6 +1,6 @@
 {
   "name": "@aunited/beholder-formatter-commitlint",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",

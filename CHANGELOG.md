@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/atlantisunited/beholder/compare/v1.0.0...v1.2.0) (2019-07-16)
+
+
+### Features
+
+* **commitlint:** create commitlint formatter ([7859945](https://github.com/atlantisunited/beholder/commit/7859945))
+* **formatter:** add missing utility ([e7ee947](https://github.com/atlantisunited/beholder/commit/e7ee947))
+
+
+
+
+
 # [1.0.0](https://github.com/atlantisunited/beholder/compare/v2.0.0...v1.0.0) (2019-06-30)
 
 
