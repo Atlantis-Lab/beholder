@@ -1,0 +1,2 @@
+packages/test/src/invalid.ts(1,16): error TS2307: Cannot find module 'fs'.
+packages/test/src/invalid.ts(4,13): error TS2304: Cannot find name 'some'.
