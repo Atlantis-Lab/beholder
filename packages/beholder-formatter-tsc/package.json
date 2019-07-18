@@ -1,6 +1,6 @@
 {
   "name": "@aunited/beholder-formatter-tsc",
-  "version": "1.0.0",
+  "version": "1.4.0",
   "license": "MIT",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
