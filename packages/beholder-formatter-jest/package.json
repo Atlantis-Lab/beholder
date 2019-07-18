@@ -1,6 +1,6 @@
 {
-  "name": "@aunited/beholder-formatter-tsc",
-  "version": "1.0.0",
+  "name": "@aunited/beholder-formatter-jest",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -20,9 +20,10 @@
     "build": "microbundle --no-compress --sourcemap=false"
   },
   "dependencies": {
-    "@beholder/github-checks-formatter-common": "1.1.0"
+    "@aunited/beholder-formatter-common": "1.1.4"
   },
   "devDependencies": {
+    "@types/node": "10.12.25",
     "microbundle": "0.11.0",
     "rimraf": "2.6.3"
   }
