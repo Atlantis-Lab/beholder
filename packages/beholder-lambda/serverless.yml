@@ -1,0 +1,17 @@
+service: beholder-lambda
+
+plugins:
+  - serverless-offline
+  - serverless-webpack
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  publish:
+    handler: handler.publish
+    events:
+      - http:
+          path: publish
+          method: post
