@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`format should match base snapshot 1`] = `
+Object {
+  "annotations": Array [
+    Object {
+      "annotation_level": "failure",
+      "end_column": 4,
+      "end_line": 6,
+      "message": "should invalid",
+      "path": "/optr/packages/test/src/__tests__/invalid.test.ts",
+      "raw_details": "Invalid test run should invalid",
+      "start_column": 4,
+      "start_line": 6,
+      "title": "Invalid test run",
+    },
+    Object {
+      "annotation_level": "failure",
+      "end_column": 6,
+      "end_line": 11,
+      "message": "next should invalid",
+      "path": "/optr/packages/test/src/__tests__/invalid.test.ts",
+      "raw_details": "Invalid test next next should invalid",
+      "start_column": 6,
+      "start_line": 11,
+      "title": "Invalid test next",
+    },
+  ],
+  "summary": "Found 2 errors",
+  "title": "Jest",
+}
+`;

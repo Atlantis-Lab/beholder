@@ -1,0 +1,62 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 2,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 2,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1549409558914,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Invalid test", "run"],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBe(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m9\u001b[39m\nReceived: \u001b[31m5\u001b[39m\n    at Object.<anonymous> (/optr/packages/test/src/__tests__/invalid.test.ts:6:22)\n    at Object.asyncJestTest (/optr/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)\n    at resolve (/optr/node_modules/jest-jasmine2/build/queue_runner.js:56:12)\n    at new Promise (<anonymous>)\n    at mapper (/optr/node_modules/jest-jasmine2/build/queue_runner.js:43:19)\n    at promise.then (/optr/node_modules/jest-jasmine2/build/queue_runner.js:87:41)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+          ],
+          "fullName": "Invalid test run should invalid",
+          "location": { "column": 4, "line": 5 },
+          "status": "failed",
+          "title": "should invalid"
+        },
+        {
+          "ancestorTitles": ["Invalid test", "next"],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBe(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m8\u001b[39m\nReceived: \u001b[31m5\u001b[39m\n    at Object.<anonymous> (/optr/packages/test/src/__tests__/invalid.test.ts:11:24)\n    at Object.asyncJestTest (/optr/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)\n    at resolve (/optr/node_modules/jest-jasmine2/build/queue_runner.js:56:12)\n    at new Promise (<anonymous>)\n    at mapper (/optr/node_modules/jest-jasmine2/build/queue_runner.js:43:19)\n    at promise.then (/optr/node_modules/jest-jasmine2/build/queue_runner.js:87:41)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+          ],
+          "fullName": "Invalid test next next should invalid",
+          "location": { "column": 6, "line": 10 },
+          "status": "failed",
+          "title": "next should invalid"
+        }
+      ],
+      "endTime": 1549409561085,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mInvalid test › run › should invalid\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBe(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m9\u001b[39m\n    Received: \u001b[31m5\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 4 | \u001b[39m  describe(\u001b[32m'run'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 5 | \u001b[39m    it(\u001b[32m'should invalid'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 6 | \u001b[39m      expect(some())\u001b[33m.\u001b[39mtoBe(\u001b[35m9\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   | \u001b[39m                     \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 7 | \u001b[39m    })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 8 | \u001b[39m  })\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 9 | \u001b[39m    describe(\u001b[32m'next'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mpackages/test/src/__tests__/invalid.test.ts\u001b[39m\u001b[0m\u001b[2m:6:22)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mInvalid test › next › next should invalid\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBe(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m8\u001b[39m\n    Received: \u001b[31m5\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 | \u001b[39m    describe(\u001b[32m'next'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 | \u001b[39m      it(\u001b[32m'next should invalid'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 11 | \u001b[39m        expect(some())\u001b[33m.\u001b[39mtoBe(\u001b[35m8\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 12 | \u001b[39m      })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 | \u001b[39m    })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 14 | \u001b[39m})\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mpackages/test/src/__tests__/invalid.test.ts\u001b[39m\u001b[0m\u001b[2m:11:24)\u001b[2m\u001b[22m\n",
+      "name": "/optr/packages/test/src/__tests__/invalid.test.ts",
+      "startTime": 1549409559714,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}
