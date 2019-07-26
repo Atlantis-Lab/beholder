@@ -20,7 +20,7 @@
     "build": "microbundle --no-compress --sourcemap=false"
   },
   "dependencies": {
-    "@aunited/beholder-formatter-common": "1.1.4"
+    "@aunited/beholder-formatter-common": "1.1.0"
   },
   "devDependencies": {
     "@types/node": "10.12.25",
