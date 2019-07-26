@@ -1,6 +1,6 @@
 {
   "name": "@aunited/beholder-formatter-jest",
-  "version": "1.4.0",
+  "version": "1.5.2",
   "license": "MIT",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
