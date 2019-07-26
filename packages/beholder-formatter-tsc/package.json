@@ -20,7 +20,7 @@
     "build": "microbundle --no-compress --sourcemap=false"
   },
   "dependencies": {
-    "@beholder/github-checks-formatter-common": "1.1.0"
+    "@aunited/beholder-formatter-common": "1.1.0"
   },
   "devDependencies": {
     "microbundle": "0.11.0",
