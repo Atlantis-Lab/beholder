@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/atlantisunited/beholder/compare/v1.5.0...v1.5.1) (2019-07-26)
+
+
+### Bug Fixes
+
+* **fix:** fix broken dep ([d9f20fe](https://github.com/atlantisunited/beholder/commit/d9f20fe))
+
+
+
+
+
 # [1.5.0](https://github.com/atlantisunited/beholder/compare/v1.4.0...v1.5.0) (2019-07-18)
 
 
